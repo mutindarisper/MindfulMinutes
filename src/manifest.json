@@ -1,0 +1,19 @@
+{
+    "manifest_version": 3,
+    "name": "Mindful Minutes",
+    "version": "1.0",
+    "description": "Reminding you to take breaks",
+    "permissions": [
+      "alarms",
+      "activeTab"
+    ],
+    "action": {
+      "default_popup": "index.html",
+      "default_icon": {
+        "16": "/clock.png",
+        "48": "/clock.png",
+        "128": "/clock.png"
+      }
+    }
+  }
+  
