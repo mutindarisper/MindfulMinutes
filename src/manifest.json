@@ -4,9 +4,14 @@
     "version": "1.0",
     "description": "Reminding you to take breaks",
     "permissions": [
+      "notifications",
       "alarms",
       "activeTab"
     ],
+    "background": {
+      "service_worker": "background.js"
+    },
+    
     "action": {
       "default_popup": "index.html",
       "default_icon": {
